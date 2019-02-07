@@ -9,7 +9,7 @@ look at the review itself, I believe the information about the user is also very
 The expectation is the model will help us in identifying hidden trend and potential fake reviews, also to find out the users 
 that related to these reviews.
 
-The data is the hotel review from 
+The data is the hotel review from tripadvisor.com
 
 In this model, I use NLTK to preprocess the data, remove stop words, perform stemming, use tf-idf to represent reviews, 
 then creat the user information features such as whether the username contains space. Finally, a K-means clustering algorithm 
